@@ -1,0 +1,17 @@
+package com.nhnacademy.edu.springboot.student.service;
+
+import com.nhnacademy.edu.springboot.student.domain.Account;
+import com.nhnacademy.edu.springboot.student.domain.Student;
+
+import java.util.List;
+
+public interface AccountService {
+    List<Account> getAccounts();
+
+    Account getAccount(Long id);
+
+    Account createAccount(Account account);
+
+    void deleteAccount(Long id);
+
+}
