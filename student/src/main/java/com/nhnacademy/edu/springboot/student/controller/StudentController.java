@@ -33,8 +33,8 @@ public class StudentController {
     }
 
     @DeleteMapping("/students/{id}")
-    public String deleteStudent(@PathVariable Long id) {
+    public ResultResponse deleteStudent(@PathVariable("id") Long id) {
         studentService.deleteStudent(id);
-        return new String("ok");
+        return new ResultResponse();
     }
 }

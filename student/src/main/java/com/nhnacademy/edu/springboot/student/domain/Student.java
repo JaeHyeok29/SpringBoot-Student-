@@ -27,6 +27,4 @@ public class Student {
         this.score = score;
     }
 
-    public Student(String name, Integer score) {
-    }
 }

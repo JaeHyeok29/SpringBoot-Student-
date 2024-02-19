@@ -18,13 +18,13 @@ class StudentRepositoryTest {
 
     @Test
     void testStudentRepository() throws Exception{
-        Student gahyoung = new Student(1L, "gahyoung", 100);
-        studentRepository.save(gahyoung);
+        Student JHyeok = new Student(1L, "JHyeok", 100);
+        studentRepository.save(JHyeok);
 
         Optional<Student> actual = studentRepository.findById(1L);
 
         Assertions.assertThat(actual).isPresent();
-        Assertions.assertThat(actual.get()).isEqualTo(gahyoung);
+        Assertions.assertThat(actual.get()).isEqualTo(JHyeok);
 
     }
 }

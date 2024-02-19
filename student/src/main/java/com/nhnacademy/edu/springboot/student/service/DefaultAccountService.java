@@ -2,14 +2,17 @@ package com.nhnacademy.edu.springboot.student.service;
 
 import com.nhnacademy.edu.springboot.student.domain.Account;
 import com.nhnacademy.edu.springboot.student.repository.AccountRepository;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
 
+@Service
 public class DefaultAccountService implements AccountService {
     private final AccountRepository accountRepository;
 
+    @Autowired
     public DefaultAccountService(AccountRepository accountRepository) {
         this.accountRepository = accountRepository;
     }
@@ -18,6 +21,9 @@ public class DefaultAccountService implements AccountService {
     public List<Account> getAccounts() {
         return accountRepository.findAll();
     }
+
+
+
 
     @Override
     public Account getAccount(Long id) {
