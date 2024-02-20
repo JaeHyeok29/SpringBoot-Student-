@@ -1,7 +1,6 @@
 package com.nhnacademy.edu.springboot.student.service;
 
 import com.nhnacademy.edu.springboot.student.domain.Account;
-import com.nhnacademy.edu.springboot.student.domain.Student;
 
 import java.util.List;
 

@@ -1,10 +1,5 @@
 package com.nhnacademy.edu.springboot.student.repository;
 
-import com.nhnacademy.edu.springboot.student.domain.Account;
-import org.springframework.stereotype.Component;
-
-import java.util.List;
-
 //@Component
 //public class DummyAccountRepository implements AccountRepository{
 //    @Override

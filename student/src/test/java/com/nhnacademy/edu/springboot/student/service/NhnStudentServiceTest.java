@@ -8,8 +8,6 @@ import org.springframework.boot.test.context.SpringBootTest;
 
 import java.util.List;
 
-import static org.junit.jupiter.api.Assertions.*;
-
 @SpringBootTest //통합테스트 -> 테스트하는과정에서 클래스가 모두 로딩됨.
 class NhnStudentServiceTest {
 

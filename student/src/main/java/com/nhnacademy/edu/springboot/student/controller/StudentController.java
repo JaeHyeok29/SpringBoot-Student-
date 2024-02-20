@@ -1,7 +1,7 @@
 package com.nhnacademy.edu.springboot.student.controller;
 
-import com.nhnacademy.edu.springboot.student.response.ResultResponse;
 import com.nhnacademy.edu.springboot.student.domain.Student;
+import com.nhnacademy.edu.springboot.student.response.ResultResponse;
 import com.nhnacademy.edu.springboot.student.service.StudentService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
