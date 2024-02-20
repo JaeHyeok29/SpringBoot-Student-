@@ -7,5 +7,6 @@
 <body>
 <h1>JSP Sample</h1>
 <h2>${message}</h2>
+<packaging>war</packaging>
 </body>
 </html>

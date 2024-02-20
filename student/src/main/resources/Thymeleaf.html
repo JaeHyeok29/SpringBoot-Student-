@@ -1,0 +1,14 @@
+<!-- 2. Thymeleaf 템플릿 작성 -->
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Account Details</title>
+</head>
+<body>
+<h1>Account Details</h1>
+<p>ID: <span th:text="${account.id}"></span></p>
+<p>Name: <span th:text="${account.name}"></span></p>
+<p>Balance: <span th:text="${account.balance}"></span></p>
+</body>
+</html>

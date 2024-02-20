@@ -6,6 +6,7 @@ import com.nhnacademy.edu.springboot.student.domain.Student;
 import java.util.List;
 
 public interface AccountService {
+
     List<Account> getAccounts();
 
 
@@ -15,5 +16,6 @@ public interface AccountService {
     Account createAccount(Account account);
 
     void deleteAccount(Long id);
+
 
 }

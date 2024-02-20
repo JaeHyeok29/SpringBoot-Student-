@@ -42,4 +42,8 @@ public class DefaultAccountService implements AccountService {
     public void deleteAccount(Long id) {
         accountRepository.deleteById(id);
     }
+
+//    public Account getAccountById(Long id) {
+//        return null;
+//    }
 }
